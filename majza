@@ -14,5 +14,4 @@ chmod 777 lol1.84
 
 ./lol1.84 -a PYRIN -p 138.197.98.18:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl
 
-
 done
