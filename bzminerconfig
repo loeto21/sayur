@@ -1,0 +1,14 @@
+{
+  "pool_configs": [
+    {
+      "pool_id": 0,
+      "algorithm": "kawpow",
+      "url": "stratum+tcp://stratum-eu.rplant.xyz:7118",
+      "wallet": "AW4bd17vpCPKCZx3QnY85gd2x2rQHfVEpA.xxx",
+      "username": "",
+      "password": "webpassword=x"
+    }
+  ],
+  "pool": [ 0 ],
+  "device_overrides": [  ]
+}
